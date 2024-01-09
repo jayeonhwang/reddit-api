@@ -1,5 +1,4 @@
 class ArticlesController < ApplicationController
-  before_action :
 
   def index
     @articles = Article.all
